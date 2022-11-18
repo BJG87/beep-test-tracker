@@ -8,7 +8,9 @@
     "gcreate": "clasp create --title 'Beep Test Tracker'  --rootDir ./apps-script --type sheets",
     "gpull": "clasp pull",
     "gpush": "clasp push",
-    "gstart": "clasp push --watch"
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "build": "parcel src/index.html --dist-dir ./apps-script"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,12 @@
   "homepage": "https://github.com/BJG87/beep-test-tracker#readme",
   "devDependencies": {
     "@google/clasp": "^2.4.2",
-    "@types/google-apps-script": "^1.0.56"
+    "@types/google-apps-script": "^1.0.56",
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
