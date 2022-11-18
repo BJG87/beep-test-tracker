@@ -1,0 +1,28 @@
+{
+  "name": "beep-test-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'Beep Test Tracker'  --rootDir ./apps-script --type sheets",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJG87/beep-test-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BJG87/beep-test-tracker/issues"
+  },
+  "homepage": "https://github.com/BJG87/beep-test-tracker#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.56"
+  }
+}
